@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `Any name`,
-        description: `LOL.`,
-        author: `@EricMarcantonio`,
+        title: `Tic Tac Toe`,
+        description: `A simple Tic Tac Toe game made in React`,
+        author: `@cc0407`,
     },
     plugins: [
         {
@@ -22,4 +22,5 @@ module.exports = {
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
     ],
+    pathPrefix: "/tic-tac-toe",
 };
