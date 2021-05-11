@@ -14,3 +14,7 @@
 .title {
     @apply text-3xl py-8
 }
+
+.box {
+    @apply w-12 h-12 border-black border-solid border-2 text-4xl justify-center items-center flex
+}
