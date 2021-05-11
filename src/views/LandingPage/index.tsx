@@ -37,10 +37,20 @@ export const Landing = () => {
                         />
                     ))}
                 </div>
-                <div className="confirmButton">
+                <div className="confirmButton" 
+                    onClick={() => {
+                        setBoard([null, null, null, null, null, null, null, null, null]);
+                        setLetter('X');
+                        setGameWon(false);
+                    }}
+                >
                     New Game
                 </div>
             </div>
         </div>
     )
+
+    function checkWin(board, letter) {
+
+    }
 }
