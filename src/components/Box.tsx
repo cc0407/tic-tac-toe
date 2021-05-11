@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export const Box = ({id}) => {
+export const Box = ({onClick, id}) => {
     return(
-        <div className="box">
+        <div className="box" onClick={onClick}>
             {id}
         </div>
     );
