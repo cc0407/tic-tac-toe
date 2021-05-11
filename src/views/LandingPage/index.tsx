@@ -3,7 +3,7 @@ import { Box } from '../../components/Box';
 
 export const Landing = () => {
     const [board, setBoard] = useState([null, null, null, null, null, null, null, null, null]);
-    const letter = 'X';
+    const [letter, setLetter] = useState('X');
     return (
         <div className="window">
             <div className="viewport">
@@ -19,6 +19,12 @@ export const Landing = () => {
                                 const boardCopy = [...board];
                                 boardCopy[index] = letter;
                                 setBoard(boardCopy);
+                                if (letter == 'X') {
+                                    setLetter('O');
+                                }
+                                else {
+                                    setLetter('X');
+                                }
                             }
                         }}
                         />
