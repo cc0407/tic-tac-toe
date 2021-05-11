@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"+5Qc":function(n,t,e){"use strict";e.r(t);var a=e("q1tI"),o=e.n(a);t.default=function(){return o.a.createElement("div",{className:"text-6xl font-mono"},"Landing")}}}]);
+//# sourceMappingURL=component---src-pages-index-ts-af688a9edad414180c31.js.map
