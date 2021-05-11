@@ -12,9 +12,12 @@
 }
 
 .title {
-    @apply text-3xl py-8
+    @apply text-3xl py-16
 }
 
+.gameBoard {
+    @apply grid-cols-3 grid-rows-3 grid
+}
 .box {
-    @apply w-12 h-12 border-black border-solid border-2 text-4xl justify-center items-center flex
+    @apply w-24 h-24 border-black border-solid border-2 text-6xl justify-center items-center flex
 }
