@@ -3,6 +3,10 @@ import React from 'react';
 
 export const Landing = () => {
     return (
-        <div className="text-6xl font-mono">Landing</div>
+        <div className="window">
+            <div className="viewport">
+                <div className="title">Welcome!</div>
+            </div>
+        </div>
     )
 }
