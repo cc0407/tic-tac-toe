@@ -5,29 +5,30 @@
 @tailwind utilities;
 
 .window {
-    @apply h-screen bg-gray-800 flex flex-row justify-center
+    @apply h-screen bg-gray-400 flex flex-row justify-center
 }
 .viewport {
-    @apply h-screen w-full bg-gray-200 flex flex-col justify-start items-center
+    @apply h-screen w-full bg-gray-200 flex flex-col justify-start items-center shadow-2xl
 }
 
 .title {
-    @apply text-3xl py-16
+    @apply text-3xl pt-16 pb-8
 }
-
 .gameBoard {
     @apply grid-cols-3 grid-rows-3 grid
 }
 .box {
     @apply w-24 h-24 border-black border-solid border-2 text-6xl justify-center items-center flex order-first
 }
-
 .box:hover {
     @apply bg-gray-400
+}
+.confirmButton {
+    @apply w-24 h-12 bg-gray-800 text-white justify-center items-center flex mt-8
 }
 
 @screen sm{
     .viewport {
-        @apply h-screen w-96 bg-gray-200 flex flex-col justify-start items-center
+        @apply w-96
     }
 }
