@@ -49,8 +49,4 @@ export const Landing = () => {
             </div>
         </div>
     )
-
-    function checkWin(board, letter) {
-
-    }
 }
