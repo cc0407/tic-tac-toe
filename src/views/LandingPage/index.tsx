@@ -50,10 +50,13 @@ export const Landing = () => {
                         setBoard([null, null, null, null, null, null, null, null, null]);
                         setLetter('X');
                         setGameWon(0);
-                    }}
-                >
+                }}>
                     New Game
                 </div>
+                <a className="accentLink"
+                    href="https://github.com/cc0407/cc0407.github.io/tree/staging">
+                    View development here.
+                </a>
             </div>
         </div>
     )
