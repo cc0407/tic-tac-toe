@@ -54,7 +54,7 @@ export const Landing = () => {
                     New Game
                 </div>
                 <a className="accentLink"
-                    href="https://github.com/cc0407/cc0407.github.io/tree/staging">
+                    href="https://github.com/cc0407/tic-tac-toe/tree/main">
                     View development here.
                 </a>
             </div>
