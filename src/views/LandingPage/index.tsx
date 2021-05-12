@@ -16,7 +16,8 @@ export const Landing = () => {
                     {board.map((id, index) => (
                         <Box 
                         key={index}
-                        id={id} 
+                        id={id}
+                        gameWon={gameWon}
                         onClick={()=>{
                             if(id == null && gameWon == 0) {
                                 //update board

@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Box = ({onClick, id}) => {
+export const Box = ({onClick, id, gameWon}) => {
     return(
-        <div className={`box ` + (id == null ? `empty` : `filled`)} onClick={onClick}>
+        <div className={`box ` + ((id == null && gameWon == 0) ? `empty` : `filled`)} onClick={onClick}>
             {id}
         </div>
     );
