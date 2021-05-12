@@ -10,7 +10,7 @@ export const Landing = () => {
             <div className="viewport">
                 <div className="title">Welcome!</div>
                 
-                <div>{findAppropriateSentence(gameWon, letter)}</div>
+                <div className="subtitle">{findAppropriateSentence(gameWon, letter)}</div>
 
                 <div className="gameBoard">
                     {board.map((id, index) => (

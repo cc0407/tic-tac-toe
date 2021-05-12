@@ -5,15 +5,18 @@
 @tailwind utilities;
 
 .window {
-    @apply h-screen bg-gray-400 flex flex-row justify-center
+    @apply h-screen bg-indigo-200 flex flex-row justify-center
 }
 .viewport {
     @apply h-screen w-full bg-gray-200 flex flex-col justify-start items-center shadow-2xl
 }
-
 .title {
     @apply text-3xl pt-16 pb-8
 }
+.subtitle {
+    @apply pb-2
+}
+
 .gameBoard {
     @apply grid-cols-3 grid-rows-3 grid
 }
