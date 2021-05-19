@@ -15,8 +15,27 @@ module.exports = {
             transparent: "transparent",
             current: "currentColor",
 
-            black: "#000",
             white: "#fff",
+
+            //backgroundDark: "#121212",
+            backgroundDark: "#0E1020",
+            mainDark: "#E2E8F0",
+            secondDark: "#9E9E9E",
+            tertDark: "#5E5E5E",
+            quatDark: "#333333",
+
+            background: "#E2E8F0",
+            main: "#333333",
+            second: "#6BC0A8",
+            tert: "#4B8AA4",
+            quat: "#A39F89",
+            
+            black: "#363052",
+            accentDark: "#e94560",
+            accentLight: "#5a6577",
+            mainBlue: "#4b8aa4",
+            
+            temp: "#6BC0A8",
 
             gray: {
                 100: "#f7fafc",
